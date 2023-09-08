@@ -16,3 +16,7 @@ Esto es una guia para los alumnos de la capacitacion __GIT y GitHub__ que cursan
     * __git add `<file>`__: agrega los cambios del archivo al area de control de cambios mediante una captura.
 
 1. __Repository__: Corresponde al _Almacen de datos_ donde se guardan las confirmaciones realizadas mediante commits en archivos _BLOB (Binary Large Object)_ y sirven como punto de referencia para navegar en la historia del proyecto.
+
+    * __git commit__: abre el editor para emitir una confirmacion de los cambios realizados.
+    * __git log__: muestra el registro de confirmaciones realizadas en formato de commits.
+    * __git push__: envia los cambios locales a la rama correspondiente de repositorio remoto.
