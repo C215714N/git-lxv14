@@ -27,3 +27,4 @@ Esto es una guia para los alumnos de la capacitacion __GIT y GitHub__ que cursan
 Corresponden a referencias que señalan a un commit en particular, estos pueden ser de diferentes tipos y facilitan la navegacion dentro del _historial de confirmaciones_.
 
 * __HEAD__: Apuntador Movil que indica donde nos encontramos actualmente en el _registro de cambios_.
+* __BRANCH__: Apuntador Dinamico que siempre se corresponde con el ultimo commit de la historia actual.
