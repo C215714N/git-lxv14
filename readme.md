@@ -28,3 +28,21 @@ Corresponden a referencias que señalan a un commit en particular, estos pueden 
 
 * __HEAD__: Apuntador Movil que indica donde nos encontramos actualmente en el _registro de cambios_.
 * __BRANCH__: Apuntador Dinamico que siempre se corresponde con el ultimo commit de la historia actual.
+
+
+## Colaboradores
+
+Este proyecto es el resultado de la colaboracion y esfuerzo de los siquientes participantes quienes se encargaron de realizar la estructura, estilos y logica de las areas correspondientes.
+
+| Area | Colaborador |
+|--|--|
+|Cabecera de Pagina     | |
+|Navegacion             | |
+|Contenido              | |
+|Pie de Pagina          | |
+|Mapa de Contacto       | |
+|Repositorios Remotos   | |
+|Tabla de Colaboradores | |
+|Formulario de Contacto | |
+|Redes Sociales         | |
+|Derechos de Autor      | |
