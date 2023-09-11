@@ -9,6 +9,7 @@ Esto es una guia para los alumnos de la capacitacion __GIT y GitHub__ que cursan
     * __git config user.name `<username>`__: define el nombre del usuario en el repositorio local.
     * __git config user.email `<email>`__: define el correo de contacto del repositorio local.
     * __rm -rf `.git`__: elimina el repositorio local, manteniendo los archivos.
+
 1. __Staging Area (INDEX)__: Corresponde al _Area de control de cambios_ donde se realizan las capturas de codigo (snapshot), que pueden utilizarse para reestablecer archivos o preparse para su futura confirmacion.
 
     * __git status__: muestra el estado de los archivos comparandolos con la ultima captura de codigo realizada.
@@ -20,3 +21,9 @@ Esto es una guia para los alumnos de la capacitacion __GIT y GitHub__ que cursan
     * __git commit__: abre el editor para emitir una confirmacion de los cambios realizados.
     * __git log__: muestra el registro de confirmaciones realizadas en formato de commits.
     * __git push__: envia los cambios locales a la rama correspondiente de repositorio remoto.
+
+## Apuntadores
+
+Corresponden a referencias que señalan a un commit en particular, estos pueden ser de diferentes tipos y facilitan la navegacion dentro del _historial de confirmaciones_.
+
+* __HEAD__: Apuntador Movil que indica donde nos encontramos actualmente en el _registro de cambios_.
