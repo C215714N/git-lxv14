@@ -1,0 +1,14 @@
+# Archivos
+*.swp
+*.temp
+*.tmp
+
+*.log*
+*.txt
+*.inf
+
+*.exe
+*.bat
+*.sh
+
+*.env
