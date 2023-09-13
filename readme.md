@@ -39,7 +39,7 @@ Este proyecto es el resultado de la colaboracion y esfuerzo de los siquientes pa
 |Cabecera de Pagina     | |
 |Navegacion             | |
 |Contenido              | |
-|Pie de Pagina          | |
+|Pie de Pagina          | Fernandez Lourdes |
 |Mapa de Contacto       | |
 |Repositorios Remotos   | |
 |Tabla de Colaboradores | |
