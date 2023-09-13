@@ -11,6 +11,18 @@
 
     /* Contenido */
 
+    /* Tablas */
+    table{
+        margin: auto;
+    }
+    th,
+    td,
+    table caption{
+        padding: .5rem 1rem;
+    }
+    table caption{
+        border-radius: .5rem .5rem 0 0;
+    }
     /* Pie de Pagina */
 
 /* Small Devices - Smartphones */
