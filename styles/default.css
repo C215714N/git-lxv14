@@ -24,6 +24,7 @@
         border-radius: .5rem .5rem 0 0;
     }
     .colabs caption{
+        font-size: min(calc(1vw + 1rem), 2rem);
         background-color: #c36;
     }
     .colabs{
@@ -34,6 +35,7 @@
             #657
         );
         text-shadow: 0 0 .25rem #333;
+        box-shadow: -.5rem .5rem .5rem #3338;
     }
     .colabs tbody > :nth-child(odd){
         background-color: #eee3;
