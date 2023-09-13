@@ -23,6 +23,16 @@
     table caption{
         border-radius: .5rem .5rem 0 0;
     }
+    .colabs,
+    .colabs :is(
+        caption,
+        tr,
+        td
+    ){
+        color: #eee;
+        background-color: rgba(102, 80, 119, .5);
+        text-shadow: 0 0 .25rem #333;
+    }
     /* Pie de Pagina */
 
 /* Small Devices - Smartphones */
