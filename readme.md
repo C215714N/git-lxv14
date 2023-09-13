@@ -44,5 +44,5 @@ Este proyecto es el resultado de la colaboracion y esfuerzo de los siquientes pa
 |Repositorios Remotos   | |
 |Tabla de Colaboradores | |
 |Formulario de Contacto | Camila Arce |
-|Redes Sociales         | |
+|Redes Sociales         | Sofia Martinez |
 |Derechos de Autor      | |
