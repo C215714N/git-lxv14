@@ -23,6 +23,24 @@
     table caption{
         border-radius: .5rem .5rem 0 0;
     }
+    .colabs caption{
+        background-color: #c36;
+    }
+    .colabs{
+        border-collapse: collapse;
+        color: #eee;
+        background-image: linear-gradient(
+            #c36,
+            #657
+        );
+        text-shadow: 0 0 .25rem #333;
+    }
+    .colabs tbody > :nth-child(odd){
+        background-color: #eee3;
+    }
+    .colabs tbody > :nth-child(even){
+        background-color: #9993;
+    }
     /* Pie de Pagina */
 
 /* Small Devices - Smartphones */
