@@ -48,7 +48,51 @@
         background-color: #9993;
     }
     /* Pie de Pagina */
-
+    /* Estilos para el formulario */
+    .formulario {
+        max-width: 500px;
+        margin: 1rem auto;
+        padding: 20px;
+        background-color: #fff; /* Cambiado a fondo blanco */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+        text-align: left;
+    }
+    .formulario h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .formulario label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        transition: transform 0.2s ease-in-out;
+    }
+    .formulario input[type="text"],
+    .formulario input[type="email"],
+    .formulario textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid #333; /* Borde inferior gris oscuro */
+        margin-bottom: 20px;
+        transition: border-bottom 0.2s ease-in-out;
+    }
+    .formulario input[type="text"]:focus,
+    .formulario input[type="email"]:focus,
+    .formulario textarea:focus {
+        border-bottom: 2px solid #333; /* Cambia el color al seleccionar el campo */
+    }
+    .formulario input[type="submit"] {
+        background-color: #333; /* Color de fondo sobrio */
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+    }
+    .formulario input[type="submit"]:hover {
+        background-color: #555; /* Cambia el color en el hover */
+    }
 /* Small Devices - Smartphones */
 
 /* Medium Devices - Tablets */
