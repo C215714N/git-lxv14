@@ -227,9 +227,23 @@
 /* Small Devices - Smartphones */
 
 /* Medium Devices - Tablets */
-
+@media screen and (min-width: 768px) {
+    .navbar button{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        width: auto;
+        max-height: 100vh;
+    }
+}
 /* Large Devices - Laptops */
 
 /* Extra Large Devices - Desktop */
 
 /* Extra Extra Large - HD Desktop */
+@media screen and (min-width: 1400px){
+    .navbar{
+        padding: .5rem calc(50vw - 660px);
+    }
+}
