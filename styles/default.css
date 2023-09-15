@@ -64,6 +64,29 @@
 
     /* Navegacion */
 
+    nav{
+        background-color: #232323;
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: .5rem 1rem;
+        border-radius: 10px;
+        border: solid #fff  1px;
+    }
+
     /* Contenido */
 
     /* Tablas */
