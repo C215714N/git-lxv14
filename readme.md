@@ -41,7 +41,7 @@ Este proyecto es el resultado de la colaboracion y esfuerzo de los siquientes pa
 |Navegacion             | |
 |Contenido              | |
 |Pie de Pagina          | Fernandez Lourdes |
-|Mapa de Contacto       | |
+|Mapa de Contacto       | Valentina Mayor|
 |Repositorios Remotos   | |
 |Tabla de Colaboradores | |
 |Formulario de Contacto | Camila Arce |
