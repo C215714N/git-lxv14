@@ -31,6 +31,16 @@ Corresponden a referencias que señalan a un commit en particular, estos pueden 
 * __TAG__: Apuntador Estatico que se corresponde con un commit especifico y facilita la navegacion del historial.
 * __STASH__: Apuntador de la zona temporal, ideal para cuando tenes cambios pendientes que no ameritan un commit.
 
+## Control de Cambios
+
+Cuando trabajamos con el historial de cambios, existen diferentes operaciones que podemos ejecutar, entre las que se encuentran las siguientes.
+
+* __restore__: reestablece un archivo a como se encuentra en la ultima captura registrada.
+* __reset__: elimina commit del historial e incluso podemos reestablecer el working directory.
+* __revert__: deshace los cambios de un commit, con otro que realiza las operaciones opuestas.
+* __cherry-pick__: toma los cambios de un commit especifico y los aplica en la rama actual.
+* __bisect__: analisis binario de commits que permite identificar en cual se introdujo un error.
+
 ## Colaboradores
 
 Este proyecto es el resultado de la colaboracion y esfuerzo de los siquientes participantes quienes se encargaron de realizar la estructura, estilos y logica de las areas correspondientes.
