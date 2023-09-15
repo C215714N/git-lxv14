@@ -29,7 +29,7 @@ Corresponden a referencias que señalan a un commit en particular, estos pueden 
 * __HEAD__: Apuntador Movil que indica donde nos encontramos actualmente en el _registro de cambios_.
 * __BRANCH__: Apuntador Dinamico que siempre se corresponde con el ultimo commit de la historia actual.
 * __TAG__: Apuntador Estatico que se corresponde con un commit especifico y facilita la navegacion del historial.
-
+* __STASH__: Apuntador de la zona temporal, ideal para cuando tenes cambios pendientes que no ameritan un commit.
 
 ## Colaboradores
 
