@@ -38,7 +38,7 @@ Este proyecto es el resultado de la colaboracion y esfuerzo de los siquientes pa
 | Area | Colaborador |
 |--|--|
 |Cabecera de Pagina     | Ferreira Josue |
-|Navegacion             | |
+|Navegacion             | Mauro Alori
 |Contenido              | |
 |Pie de Pagina          | Fernandez Lourdes |
 |Mapa de Contacto       | Valentina Mayor|
