@@ -9,7 +9,55 @@
         scroll-behavior: smooth;
         font-family: 'Raleway', 'Century Gothic', sans-serif;
     }
+
+    body{
+        margin: 0;
+    }
     /* Cabecera */
+    #header{
+        background-color: #333;
+        min-height: 60vh;
+    }
+
+    .header-container{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        gap: 2rem;
+    }
+
+    .header-container img{
+        width: 250px;
+        display: block;
+    }
+
+    .header-container button{
+        border: 0;
+        padding: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #6d6d6d;
+        transition: all .3s ease-in;
+        box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+    }
+    .header-container button:hover{
+        background-color: #2a2a2a;
+    }
+
+    .header-container button a{
+        padding: 15px 15px;
+        display: block;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    h1{
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+    }
 
     /* Navegacion */
 
