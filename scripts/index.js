@@ -13,4 +13,4 @@
 
 /* Eventos */
     // Menu Hamburguesa
-    navButton.onclick = toggle(navMenu, navButton, 'active', ['icon-toggle', 'icon-close'])
+    navButton.onclick = (e) => toggle(navMenu, e.target, 'active', ['icon-toggle', 'icon-close'])
