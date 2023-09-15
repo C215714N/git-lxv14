@@ -16,7 +16,7 @@
     /* Cabecera */
     #header{
         background-color: #232323;
-        min-height: 60vh;
+        height: 60vh;
         padding: 1rem;
     }
 
@@ -25,7 +25,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 60vh;
+        height: 100%;
         gap: 2rem;
     }
 
@@ -39,16 +39,17 @@
         padding: 0;
         border-radius: 10px;
         overflow: hidden;
-        background-color: #6d6d6d;
+        background-color: #434242;
         transition: all .3s ease-in;
-        box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+        
     }
     .header-container button:hover{
         background-color: #2a2a2a;
+        box-shadow: rgba(255, 255, 255, 0.20) 0px 3px 8px;
     }
 
     .header-container button a{
-        padding: 15px 15px;
+        padding: 12px 10px;
         display: block;
         text-decoration: none;
         font-size: 1rem;
