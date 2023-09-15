@@ -10,12 +10,10 @@
 
 <body>
     <!-- Cabecera de Pagina -->
-    <header id="header">
-        <div class="header-container">
-            <img src="./img/github-mark-white.svg" alt="github">
-            <h1>Git y Github - Desarrollo colaborativo</h1>
-            <button><a href="https://github.com/C215714N/git-lxv14" target="_blank">Repositorio</a></button>
-        </div>
+    <header id="header" class="header-container">
+        <img src="./img/github-mark-white.svg" alt="github">
+        <h1>Git y Github - Desarrollo colaborativo</h1>
+        <a href="https://github.com/C215714N/git-lxv14" target="_blank">Repositorio</a>
     </header>
     <!-- Navegacion -->
     <nav>
@@ -29,7 +27,7 @@
     <!-- Contenido Principal -->
 
     <!-- Pie de Pagina -->
-
+    <footer>
     <!-- Mapa de Contacto -->
 
     <!-- Repositorios Remotos -->
@@ -113,18 +111,18 @@
         <h2>Contacto</h2>
         <form action="#">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" placeholder="Juan Perez" required>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="jperez@gmail.com" required>
             <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <textarea id="mensaje" name="mensaje" placeholder="buenos dias, quisiera realizar la siguiente consulta" required></textarea>
             <input type="submit" value="Enviar">
         </form>
     </div>
     <!-- Redes Sociales -->
 
     <!-- Derechos de Autor -->
-
+    </footer>
     <script src="scripts/index.js"></script>
 </body>
 
