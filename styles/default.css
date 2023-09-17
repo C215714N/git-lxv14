@@ -179,6 +179,23 @@
         background-color: #9993;
     }
     /* Pie de Pagina */
+    /* Mapa de contacto */
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+    }
+    .map-style {
+        width: 70%;
+        height: 70%;
+        box-shadow: 0 0 10px #657;
+    }
+    .map-style:hover {
+        opacity: 0.7;
+    }
     /* Estilos para el formulario */
     .formulario {
         max-width: 500px;
